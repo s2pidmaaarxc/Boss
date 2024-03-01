@@ -9,6 +9,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
+   background-repeat: no-repeat;
   background: rgb(158, 19, 200);
   background: radial-gradient(
   circle,
@@ -40,6 +41,7 @@ body{
   -webkit-backdrop-filter: blur(4px);
   background-color: rgba(255, 255, 255, 0.3);
   border: 1px solid rgba(255, 255, 255, 0.34);
+  transform:scale(0.75);
 }
 .gif{
   position: relative;
@@ -66,19 +68,15 @@ button{
   cursor: pointer;
   color: #fff;
   outline: none;
+  width: 10vh;
+  height: 6vh;
   
 }
 button:nth-child(1){
-  margin-left: -300px;
-  height: 6vh;
-  width: 8vh;
+  margin-left: -200px;
   background: limegreen;
-  
 }
 button:nth-child(2){
-  margin-right: -300px;
-  height: 6vh;
-  width: 8vh;
+  margin-right: -200px;
   background: red;
-  
 }
