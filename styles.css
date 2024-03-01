@@ -65,17 +65,20 @@ button{
   cursor: pointer;
   color: #fff;
   outline: none;
-  width: 10vh;
-  height: 8vh;
 }
 button:nth-child(1){
   position: relative;
   background: limegreen;
+  width: 90px;
+  height: 15vh;
 }
 button:nth-child(2){
+  width: 90px;
+  height: 40px;
   position: absolute;
-  top: 81%;
+  top: 85%;
   left: 50%;
+  right: 0;
   transform: translate(-50%,-50%);
   background: red;
 }
