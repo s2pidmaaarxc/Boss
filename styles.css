@@ -69,7 +69,7 @@ button{
 button:nth-child(1){
   position: relative;
   background: limegreen;
-  width: 42vh;
+  width: 15vh;
 }
 button:nth-child(2){
   margin-top: 50px;
